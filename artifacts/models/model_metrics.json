@@ -1,0 +1,74 @@
+{
+    "accuracy": 0.6354,
+    "precision": 0.7329,
+    "recall": 0.6626,
+    "f1_score": 0.696,
+    "roc_auc": 0.6617,
+    "confusion_matrix": [
+        [
+            430,
+            300
+        ],
+        [
+            419,
+            823
+        ]
+    ],
+    "model": "RandomForestClassifier",
+    "n_estimators": 300,
+    "max_depth": 12,
+    "min_samples_split": 10,
+    "min_samples_leaf": 5,
+    "feature_importance": [
+        {
+            "feature": "amount",
+            "importance": 0.2364,
+            "percentage": 23.64
+        },
+        {
+            "feature": "historical_success_rate",
+            "importance": 0.1163,
+            "percentage": 11.63
+        },
+        {
+            "feature": "average_transaction_amount",
+            "importance": 0.1126,
+            "percentage": 11.26
+        },
+        {
+            "feature": "failure_reason",
+            "importance": 0.1091,
+            "percentage": 10.91
+        },
+        {
+            "feature": "transaction_hour",
+            "importance": 0.0929,
+            "percentage": 9.29
+        },
+        {
+            "feature": "payment_method",
+            "importance": 0.0568,
+            "percentage": 5.68
+        },
+        {
+            "feature": "customer_success_category",
+            "importance": 0.0536,
+            "percentage": 5.36
+        },
+        {
+            "feature": "retry_count",
+            "importance": 0.0535,
+            "percentage": 5.35
+        },
+        {
+            "feature": "strategy_id",
+            "importance": 0.0494,
+            "percentage": 4.94
+        },
+        {
+            "feature": "customer_segment",
+            "importance": 0.0412,
+            "percentage": 4.12
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "experiment": "Digital Twin vs Fixed Recovery Policies",
+    "evaluation_type": "Model-based policy evaluation",
+    "test_transactions": 1972,
+    "digital_twin_mean_utility": 2579.4868,
+    "fixed_policy_mean_utility": {
+        "Retry after 30 minutes": 2340.8392,
+        "Retry after 6 hours": 2359.6463,
+        "Send Payment Link": 2431.5983,
+        "Wait": 2352.294
+    },
+    "advantage_over_fixed_policy": {
+        "Retry after 30 minutes": 238.6476,
+        "Retry after 6 hours": 219.8405,
+        "Send Payment Link": 147.8885,
+        "Wait": 227.1928
+    },
+    "percentage_improvement": {
+        "Retry after 30 minutes": 10.19,
+        "Retry after 6 hours": 9.32,
+        "Send Payment Link": 6.08,
+        "Wait": 9.66
+    },
+    "best_fixed_policy": "Send Payment Link",
+    "best_fixed_policy_utility": 2431.5983,
+    "advantage_over_best_fixed_policy": 147.8885,
+    "percentage_improvement_over_best_fixed": 6.08,
+    "recommended_strategy_distribution": {
+        "Send Payment Link": 596,
+        "Wait": 516,
+        "Retry after 30 minutes": 504,
+        "Retry after 6 hours": 356
+    }
+}
